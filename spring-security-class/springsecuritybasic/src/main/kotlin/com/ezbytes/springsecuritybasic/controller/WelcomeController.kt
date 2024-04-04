@@ -10,7 +10,7 @@ class WelcomeController {
 
     @GetMapping("")
     fun welcome(): String {
-        return "Welcome to Spring Security"
+        return "Welcome to Spring with Security"
     }
 
 }
