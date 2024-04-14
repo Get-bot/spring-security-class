@@ -5,8 +5,8 @@ import com.ezbytes.model.User
 
 
 data class UserRegister(
-    val username: String,
-    val password: String
+    var username: String,
+    var password: String
 )
 
 fun UserRegister.toEntity() = User (
